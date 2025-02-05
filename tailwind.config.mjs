@@ -6,11 +6,10 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+      montserrat: ['Montserrat', 'sans-serif'],
+      lato: ['Lato', 'sans-serif'],
     },
   },
   plugins: [],
